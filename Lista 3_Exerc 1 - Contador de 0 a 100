@@ -1,0 +1,11 @@
+int main ()
+	{
+	int a = 0;
+	cout << "Contador de 0 a 100";
+	while (a <= 100)
+			{
+			cout << a << "\n";
+			a++;
+			}
+	}
+
