@@ -1,0 +1,21 @@
+int main ()
+	{
+	int a=0, b=0, c=0, d=0;
+	cout << "\n\nDetector de numeros entre 10 e 20";
+	cout << "\n\nDigite 10 numeros inteiros: ";
+	while (b<=10)
+		{
+		cin >> a;
+		if (a > 10 && a < 20)
+			{
+			c++;
+			}
+		else
+ 			{
+			d++;
+			}
+		b++;
+		}
+	cout << "\n\nExistem : " << c << "numeros entre 10 e 20 e " << d << " numeros que não estão.";
+	return 0;
+	}
