@@ -1,0 +1,14 @@
+int main ()
+	{
+	int a=1, d=0;
+	cout << "Fatorial de numeros inteiros";
+	cout << "\n\nDigita um numero inteiro:";
+	cin >> d;
+	while (d>0)
+		{
+		a=a*d;
+		d--;
+		}
+	cout << "\n\nO fatorial é: " << a << "\n\n";
+	return 0;
+	}
