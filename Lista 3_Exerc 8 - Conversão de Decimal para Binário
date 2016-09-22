@@ -1,0 +1,24 @@
+int main()
+ {
+ 	int bd = 0;
+ 	string bin = "";
+ 
+ 	while (bd <= 0)
+ 	{
+ 		cout << "\nConverter decimal para binario";
+ 		cout << "\n\nDigite um numero inteiro positivo: ";
+ 		cin >> bd;
+ 	}
+ 	cout << "Decimal " << bd << " para binario : ";
+ 	while (bd > 0)
+ 	{
+ 		if (bd % 2 == 0)
+ 			bin = "0" + bin;
+ 		else
+ 			bin = "1" + bin;
+ 
+ 		bd = bd / 2;
+ 	}
+ 
+ 	cout << bin << endl;
+}
