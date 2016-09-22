@@ -1,0 +1,22 @@
+int main ()
+	{
+	int a = 1, b = 1, c;
+	int termos;
+	cout << "Serie de fribonacci";
+	cout << "\n\nDigite quantos termos deseja: ";
+	cin >> termos;
+	int i=2;
+	cout <<a;
+	cout << "\n" << b;
+		do
+		{
+		cout <<"\n" << a+b;
+			c = b;
+			b = a+b;
+			a = c;
+		i++;
+		}
+		while(i<termos);
+		
+		return 0;
+	}
